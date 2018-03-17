@@ -1,0 +1,7 @@
+apache2
+ganglia-monitor
+ganglia-webfrontend
+slurm-client
+slurmctld
+slurmd
+slurmdbd

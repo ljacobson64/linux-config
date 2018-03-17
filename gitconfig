@@ -1,0 +1,5 @@
+[user]
+	name = Lucas John Jacobson
+	email = ljacobson64@gmail.com
+[core]
+	editor = emacs -nw
