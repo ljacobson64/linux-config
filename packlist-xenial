@@ -1,3 +1,4 @@
+
 astyle
 autoconf
 build-essential
@@ -36,7 +37,7 @@ libmysqlclient-dev
 libnetcdf-dev
 libopenmpi-dev
 libpam0g-dev
-libpmi2-0-dev
+libpmi0-dev
 libpng-dev
 libsilo-dev
 libtool
@@ -54,7 +55,6 @@ php
 postfix
 python3-cloud-sptheme
 python3-matplotlib
-python3-nbconvert
 python3-nose
 python3-numpy
 python3-numpydoc
@@ -66,7 +66,6 @@ python3-sphinx
 python3-tables
 python-cloud-sptheme
 python-matplotlib
-python-nbconvert
 python-nose
 python-numpy
 python-numpydoc
