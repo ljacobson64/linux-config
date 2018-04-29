@@ -1,4 +1,4 @@
-
+apache2
 astyle
 autoconf
 build-essential
@@ -16,6 +16,8 @@ emacs
 eog
 evince
 expat
+ganglia-monitor
+ganglia-webfrontend
 gdb
 geany
 gfortran
@@ -77,6 +79,10 @@ python-sphinx
 python-tables
 ruby-dev
 screen
+slurm-client
+slurmctld
+slurmd
+slurmdbd
 software-properties-common
 swig
 tar
