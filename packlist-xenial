@@ -19,6 +19,7 @@ evince
 expat
 ganglia-monitor
 ganglia-webfrontend
+gconf2-common
 gdb
 geany
 gfortran
@@ -30,6 +31,7 @@ git
 gnome-tweak-tool
 hdf5-tools
 htop
+libappindicator1
 libarmadillo-dev
 libatlas-base-dev
 libblas-dev
@@ -37,7 +39,9 @@ libboost-all-dev
 libc6-dev-i386
 libc++-dev
 libexpat-dev
+libgconf-2-4
 libhdf5-dev
+libindicator7
 liblapack-dev
 libmatio-dev
 libmysqlclient-dev
