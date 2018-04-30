@@ -2,6 +2,7 @@ apache2
 astyle
 autoconf
 build-essential
+chrome-gnome-shell
 clang
 cmake
 cpufrequtils
@@ -22,7 +23,11 @@ gdb
 geany
 gfortran
 gimp
+gir1.2-clutter-1.0
+gir1.2-gtop-2.0
+gir1.2-networkmanager-1.0
 git
+gnome-tweak-tool
 hdf5-tools
 htop
 libarmadillo-dev
@@ -51,6 +56,9 @@ man
 mariadb-server
 meld
 munge
+net-tools
+network-manager-openconnect-gnome
+openconnect
 p7zip-full
 patchelf
 php
