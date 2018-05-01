@@ -104,6 +104,8 @@ texlive-latex-extra
 tmux
 unzip
 vim
+virtualbox
+virtualbox-guest-utils
 vlc
 wamerican
 wget
