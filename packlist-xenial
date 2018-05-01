@@ -63,6 +63,7 @@ munge
 net-tools
 network-manager-openconnect-gnome
 openconnect
+openssh-server
 p7zip-full
 patchelf
 php
