@@ -97,6 +97,7 @@ slurmctld
 slurmd
 slurmdbd
 software-properties-common
+subversion
 swig
 tar
 texlive-base
