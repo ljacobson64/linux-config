@@ -1,0 +1,28 @@
+#!/bin/bash
+
+source ${HOME}/.bashrc-default
+
+umask 0002
+
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+export LD_LIBRARY_PATH=
+export PYTHONPATH=
+export LIBRARY_PATH=
+export DATAPATH=/opt/MCNP/MCNP_DATA
+
+export PATH=${HOME}/bin:${PATH}
+export PATH=/opt/ADVANTG/bin:${PATH}
+export PATH=/opt/MCNP/bin:${PATH}
+export PATH=${HOME}/opt/native/cmake-current/bin:${PATH}
+export PATH=${HOME}/opt/native/visit-current/bin:${PATH}
+
+export PATH=${HOME}/.local/bin:${PATH}
+export PYTHONPATH=${HOME}/.local/lib/python2.7/site-packages
+
+export dist_dir=${HOME}/dist
+export install_dir=${HOME}/opt
+export build_dir=${HOME}/build
+
+ulimit -s unlimited
+
+source ${HOME}/.bash-env
