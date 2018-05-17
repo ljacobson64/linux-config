@@ -50,6 +50,7 @@ libopenmpi-dev
 libpam0g-dev
 libpmi0-dev
 libpng-dev
+libqt4-dev
 libsilo-dev
 libtool
 libx11-dev
