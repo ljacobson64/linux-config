@@ -31,6 +31,7 @@ git
 gnome-tweak-tool
 hdf5-tools
 htop
+id-utils
 libappindicator1
 libarmadillo-dev
 libatlas-base-dev
@@ -60,6 +61,7 @@ mailutils
 man
 mariadb-server
 meld
+members
 munge
 net-tools
 network-manager-openconnect-gnome
