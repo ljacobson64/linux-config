@@ -57,6 +57,7 @@ libtool
 libx11-dev
 libz-dev
 llvm
+lm-sensors
 mailutils
 man
 mariadb-server
