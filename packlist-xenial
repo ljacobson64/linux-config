@@ -40,6 +40,7 @@ libboost-all-dev
 libc6-dev-i386
 libc++-dev
 libexpat-dev
+libfreetype6-dev
 libgconf-2-4
 libhdf5-dev
 libindicator7
@@ -53,8 +54,12 @@ libpmi0-dev
 libpng-dev
 libqt4-dev
 libsilo-dev
+libtcl8.6
+libtk8.6
 libtool
 libx11-dev
+libxi-dev
+libxmu-dev
 libz-dev
 llvm
 lm-sensors
