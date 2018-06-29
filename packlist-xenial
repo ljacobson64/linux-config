@@ -45,6 +45,7 @@ libexpat-dev
 libfreetype6-dev
 libgconf-2-4
 libhdf5-dev
+libieee1284-3-dev
 libindicator7
 liblapack-dev
 libmatio-dev
@@ -73,6 +74,7 @@ members
 munge
 net-tools
 network-manager-openconnect-gnome
+nfs-common
 openconnect
 openssh-server
 p7zip-full
@@ -118,6 +120,7 @@ unzip
 vim
 virtualbox
 virtualbox-guest-utils
+virtualbox-qt
 vlc
 wamerican
 wget
