@@ -19,6 +19,7 @@ eog
 evince
 expat
 ganglia-monitor
+ganglia-monitor-python
 ganglia-webfrontend
 gconf2-common
 gdb
@@ -34,6 +35,7 @@ hdf5-tools
 htop
 id-utils
 landscape-common
+libapache2-mod-php
 libappindicator1
 libarmadillo-dev
 libatlas-base-dev
