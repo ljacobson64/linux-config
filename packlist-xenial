@@ -37,6 +37,7 @@ id-utils
 landscape-common
 libapache2-mod-php
 libappindicator1
+libarchive-tools
 libarmadillo-dev
 libatlas-base-dev
 libblas-dev
