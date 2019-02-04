@@ -3,3 +3,4 @@
 	email = ljacobson64@gmail.com
 [core]
 	editor = emacs -nw
+	pager = more

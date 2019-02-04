@@ -1,26 +1,28 @@
 #!/bin/bash
 
-source ~/.bashrc-default
-
 umask 0022
+
+source ~/.bashrc-default
+source ~/.bash-env
 
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
 export LD_LIBRARY_PATH=
 export PYTHONPATH=
 export LIBRARY_PATH=
+export DATAPATH=/opt/MCNP/MCNP_DATA
 
 export PATH=~/bin:${PATH}
 export PATH=~/.local/bin:${PATH}
 export PATH=/opt/ADVANTG/bin:${PATH}
 export PATH=/opt/cmake/bin:${PATH}
 export PATH=/opt/MCNP/bin:${PATH}
+export PATH=/opt/NJOY/bin:${PATH}
 export PATH=/opt/SCALE/bin:${PATH}
+export PATH=/opt/TALYS/bin:${PATH}
 export PATH=/opt/Trelis/bin:${PATH}
 export PATH=/opt/visit/bin:${PATH}
 
 export PYTHONPATH=~/.local/lib/python2.7/site-packages
-
-export DATAPATH=/opt/MCNP/MCNP_DATA
 
 export dist_dir=~/dist
 export install_dir=~/opt
@@ -28,4 +30,3 @@ export build_dir=~/build
 
 ulimit -s unlimited
 
-source ~/.bash-env
