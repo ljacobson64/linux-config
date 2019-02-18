@@ -1,3 +1,4 @@
+(setq column-number-mode t)
 (setq backup-directory-alist `(("." . "~/.saves")))
 (setq backup-by-copying t)
 (setq delete-old-versions t
