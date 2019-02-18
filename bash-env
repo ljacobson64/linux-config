@@ -4,15 +4,6 @@ export NO_AT_BRIDGE=1
 export jobs=`grep -c processor /proc/cpuinfo`
 
 test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-alias ls="ls --color=auto"
-alias grep='grep --color=auto'
-alias fgrep='fgrep --color=auto'
-alias egrep='egrep --color=auto'
-
-alias ll="ls -l"
-alias rm="rm -i"
-alias mv="mv -i"
-
 function parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
@@ -22,47 +13,5 @@ else
   PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w$(parse_git_branch)\$ '
 fi
 
-export ACI1=ljjacobson@aci-service-1.chtc.wisc.edu
-export ACI2=ljjacobson@aci-service-2.chtc.wisc.edu
-export ACI=${ACI2}
-export ARIES=lucas@192.168.240.10
-export CONDOR=ljjacobson@submit-3.chtc.wisc.edu
-export RAIKOU=lucas@192.168.240.73
-export TUX=lucasj@best-tux.cae.wisc.edu
-export TUXC1=lucasj@tux-c1.cae.wisc.edu
-export TUXC2=lucasj@tux-c2.cae.wisc.edu
-export TUXC3=lucasj@tux-c3.cae.wisc.edu
-export ZAPDOS=lucas@zapdos.ep.wisc.edu
-
-alias aci1="ssh -X ${ACI1}"
-alias aci2="ssh -X ${ACI2}"
-alias aci="ssh -X ${ACI}"
-alias aries="ssh -X ${ARIES}"
-alias condor="ssh -X ${CONDOR}"
-alias raikou="ssh -X ${RAIKOU}"
-alias tux="ssh -X ${TUX}"
-alias tuxc1="ssh -X ${TUXC1}"
-alias tuxc2="ssh -X ${TUXC2}"
-alias tuxc3="ssh -X ${TUXC3}"
-alias zapdos="ssh -X ${ZAPDOS}"
-
-function path() {
-  echo ${PATH} | tr \: \\n
-}
-function ldpath() {
-  echo ${LD_LIBRARY_PATH} | tr \: \\n
-}
-function ppath() {
-  echo ${PYTHONPATH} | tr \: \\n
-}
-
-function uz() {
-  unzip input.zip
-  find -type f -exec chmod 644 {} +
-  chmod 755 *.sh
-}
-
-alias findlarge="find -type f -printf \"%s %p\n\" | sort -n"
-alias sa="sacct --allusers --format=JobID,Partition,NNodes,ReqCPUS,Account,User,JobName,Priority,NodeList,Start,End,Elapsed,State"
-alias sq="squeue -l --format=\"%.6i %10P %.5D %.4C %12a %10u %32j %.8Q %.8y %.10M %.10l %10T %R\""
-alias update="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade && sudo apt autoremove && sudo apt clean"
+source ~/.bash-aliases
+source ~/.bash-remotes

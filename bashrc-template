@@ -29,4 +29,3 @@ export install_dir=~/opt
 export build_dir=~/build
 
 ulimit -s unlimited
-

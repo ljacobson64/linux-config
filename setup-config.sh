@@ -1,6 +1,6 @@
 #!/bin/bash
 
-files="bash-env bashrc-default cshrc emacs gitconfig"
+files="bash-aliases bash-env bashrc-default bash-remotes cshrc emacs gitconfig"
 
 orig_dir=${PWD}
 cd
