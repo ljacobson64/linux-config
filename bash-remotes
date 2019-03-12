@@ -3,7 +3,7 @@
 export ACI1=ljjacobson@aci-service-1.chtc.wisc.edu
 export ACI2=ljjacobson@aci-service-2.chtc.wisc.edu
 export ACI=${ACI2}
-export ARIES=lucas@192.168.240.10
+export ARIES=lucas@192.168.224.200
 export CONDOR=ljjacobson@submit-3.chtc.wisc.edu
 export RAIKOU=lucas@192.168.240.73
 export TUX=lucasj@best-tux.cae.wisc.edu
