@@ -90,6 +90,7 @@ patchelf
 php
 postfix
 python3-cloud-sptheme
+python3-h5py
 python3-matplotlib
 python3-nbconvert
 python3-nose
@@ -102,6 +103,7 @@ python3-setuptools
 python3-sphinx
 python3-tables
 python-cloud-sptheme
+python-h5py
 python-matplotlib
 python-nbconvert
 python-nose
