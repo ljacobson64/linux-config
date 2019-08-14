@@ -58,6 +58,7 @@ libnetcdf-dev
 libopenmpi-dev
 libpam0g-dev
 libpmi0-dev
+libpmi2-0-dev
 libpng-dev
 libqt4-dev
 libsilo-dev
@@ -65,6 +66,7 @@ libtcl8.6
 libtiff-dev
 libtk8.6
 libtool
+libvtk7-dev
 libx11-dev
 libxi-dev
 libxmu-dev
@@ -89,6 +91,7 @@ php
 postfix
 python3-cloud-sptheme
 python3-matplotlib
+python3-nbconvert
 python3-nose
 python3-numpy
 python3-numpydoc
@@ -100,6 +103,7 @@ python3-sphinx
 python3-tables
 python-cloud-sptheme
 python-matplotlib
+python-nbconvert
 python-nose
 python-numpy
 python-numpydoc
