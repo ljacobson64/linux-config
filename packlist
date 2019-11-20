@@ -43,8 +43,8 @@ libarmadillo-dev
 libatlas-base-dev
 libblas-dev
 libboost-all-dev
-libc++-dev
 libc6-dev-i386
+libc++-dev
 libeigen3-dev
 libexpat-dev
 libfreetype6-dev
@@ -92,6 +92,7 @@ php
 postfix
 python3-cloud-sptheme
 python3-h5py
+python3-imageio
 python3-lmfit
 python3-matplotlib
 python3-nbconvert
@@ -107,6 +108,7 @@ python3-sphinx
 python3-tables
 python-cloud-sptheme
 python-h5py
+python-imageio
 python-lmfit
 python-matplotlib
 python-nbconvert
