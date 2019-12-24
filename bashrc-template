@@ -5,27 +5,37 @@ umask 0022
 source ~/.bashrc-default
 source ~/.bash-env
 
+# Reset PATH to default
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin
+
+# Make sure these libraries are empty
+export LIBRARY_PATH=
 export LD_LIBRARY_PATH=
 export PYTHONPATH=
-export LIBRARY_PATH=
-export DATAPATH=/opt/MCNP/MCNP_DATA
 
+# User PATH
 export PATH=~/bin:${PATH}
 export PATH=~/.local/bin:${PATH}
-export PATH=/opt/ADVANTG/bin:${PATH}
-export PATH=/opt/cmake/bin:${PATH}
-export PATH=/opt/MCNP/bin:${PATH}
-export PATH=/opt/NJOY/bin:${PATH}
-export PATH=/opt/SCALE/bin:${PATH}
-export PATH=/opt/TALYS/bin:${PATH}
-export PATH=/opt/Trelis/bin:${PATH}
-export PATH=/opt/visit/bin:${PATH}
 
+# Add some software to the PATH
+export PATH=/opt/software_misc/ADVANTG/bin:${PATH}
+export PATH=/opt/software_misc/cmake/bin:${PATH}
+export PATH=/opt/software_misc/MCNP/bin:${PATH}
+export PATH=/opt/software_misc/NJOY/bin:${PATH}
+export PATH=/opt/software_misc/SCALE/bin:${PATH}
+export PATH=/opt/software_misc/TALYS/bin:${PATH}
+export PATH=/opt/software_misc/Trelis/bin:${PATH}
+export PATH=/opt/software_misc/visit/bin:${PATH}
+
+# Setup PYTHONPATH
 export PYTHONPATH=~/.local/lib/python2.7/site-packages
+export PYTHONPATH=/opt/MCNPTOOLS/lib/python3.6/site-packages:${PYTHONPATH}
+export PYTHONPATH=~/git/pynix:${PYTHONPATH}
 
+# Location of software tarballs
 export dist_dir=~/dist
-export install_dir=~/opt
-export build_dir=~/build
+
+# MCNP DATAPATH
+export DATAPATH=/opt/software_misc/MCNP/MCNP_DATA
 
 ulimit -s unlimited
