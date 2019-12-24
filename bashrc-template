@@ -18,13 +18,13 @@ export PATH=~/bin:${PATH}
 export PATH=~/.local/bin:${PATH}
 
 # Add some software to the PATH
+export PATH=/opt/Trelis-16.5/bin:${PATH}
 export PATH=/opt/software_misc/ADVANTG/bin:${PATH}
 export PATH=/opt/software_misc/cmake/bin:${PATH}
 export PATH=/opt/software_misc/MCNP/bin:${PATH}
 export PATH=/opt/software_misc/NJOY/bin:${PATH}
 export PATH=/opt/software_misc/SCALE/bin:${PATH}
 export PATH=/opt/software_misc/TALYS/bin:${PATH}
-export PATH=/opt/software_misc/Trelis/bin:${PATH}
 export PATH=/opt/software_misc/visit/bin:${PATH}
 
 # Setup PYTHONPATH
