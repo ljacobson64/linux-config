@@ -123,6 +123,7 @@ python-scipy
 python-setuptools
 python-sphinx
 python-tables
+r-base
 ruby-dev
 screen
 slurm-client
