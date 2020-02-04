@@ -51,6 +51,7 @@ libeigen3-dev
 libexpat-dev
 libfreetype6-dev
 libgconf-2-4
+libgsl-dev
 libhdf5-dev
 libieee1284-3-dev
 libindicator7
