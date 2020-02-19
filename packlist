@@ -88,6 +88,7 @@ network-manager-openconnect-gnome
 nfs-common
 nmap
 openconnect
+openjdk-11-jdk
 openssh-server
 p7zip-full
 patchelf
