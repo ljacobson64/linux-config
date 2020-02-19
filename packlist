@@ -11,7 +11,6 @@ cpufrequtils
 curl
 cython
 cython3
-default-jre
 docker
 docker.io
 doxygen
@@ -88,7 +87,6 @@ network-manager-openconnect-gnome
 nfs-common
 nmap
 openconnect
-openjdk-11-jdk
 openssh-server
 p7zip-full
 patchelf
