@@ -21,6 +21,7 @@ export PATH=~/.local/bin:${PATH}
 export PATH=/opt/Trelis-16.5/bin:${PATH}
 export PATH=/opt/software_misc/ADVANTG/bin:${PATH}
 export PATH=/opt/software_misc/cmake/bin:${PATH}
+export PATH=/opt/software_misc/jdk/bin:${PATH}
 export PATH=/opt/software_misc/MCNP/bin:${PATH}
 export PATH=/opt/software_misc/NJOY/bin:${PATH}
 export PATH=/opt/software_misc/SCALE/bin:${PATH}
