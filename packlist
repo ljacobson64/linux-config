@@ -138,6 +138,7 @@ tar
 texlive-base
 texlive-fonts-extra
 texlive-latex-extra
+texlive-science
 time
 tmux
 unzip
