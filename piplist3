@@ -16,6 +16,7 @@ pandas
 pip
 prettytable
 protobuf
+protoc-wheel-0
 pylint
 python-pptx
 pyublas
