@@ -17,6 +17,7 @@ pip
 prettytable
 protobuf
 protoc-wheel-0
+psycopg2
 pylint
 python-pptx
 pyublas
