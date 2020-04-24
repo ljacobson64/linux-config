@@ -2,7 +2,7 @@
 
 if [[ `lsb_release -sd` == *"18.04"* ]]; then
   aptlist=aptlist-18.04
-elif [[ `lsb_release -sd` == *"Focal"* ]]; then
+elif [[ `lsb_release -sd` == *"20.04"* ]]; then
   aptlist=aptlist-20.04
 fi
 
