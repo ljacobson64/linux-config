@@ -29,8 +29,8 @@ export PATH=/opt/software_misc/TALYS/bin:${PATH}
 export PATH=/opt/software_misc/visit/bin:${PATH}
 
 # Setup PYTHONPATH
-export PYTHONPATH=~/.local/lib/python2.7/site-packages
-export PYTHONPATH=/opt/software_misc/MCNPTOOLS/lib/python3.6/site-packages:${PYTHONPATH}
+export PYTHONPATH=~/.local/lib/python3.8/site-packages
+export PYTHONPATH=/opt/software_misc/MCNPTOOLS/lib/python3.8/site-packages:${PYTHONPATH}
 export PYTHONPATH=~/git/pynix:${PYTHONPATH}
 
 # Location of software tarballs
