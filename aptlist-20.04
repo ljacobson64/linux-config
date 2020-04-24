@@ -118,7 +118,6 @@ python-is-python3
 python-nose
 python-numpy
 python-setuptools
-python-sphinx
 r-base
 ruby-dev
 screen
