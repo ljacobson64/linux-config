@@ -1,6 +1,7 @@
 #!/bin/bash
 
 export num_cpus=`grep -c processor /proc/cpuinfo`
+export LC_COLLATE=en_US.utf8
 
 test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 function parse_git_branch() {
