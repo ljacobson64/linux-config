@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo pip3.8 install --upgrade `cat piplist3`
+pip3 install --user --upgrade `cat piplist3`

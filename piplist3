@@ -10,6 +10,7 @@ lmfit
 matplotlib
 nbconvert
 nose
+numexpr
 numpy
 numpydoc
 pandas
@@ -20,12 +21,12 @@ protoc-wheel-0
 psycopg2
 pylint
 python-pptx
-pyublas
-scikit-learn
 scipy
 setuptools
 setuptools-scm
+sklearn
 sphinx
 tables
+tk
 wheel
 xlwt
