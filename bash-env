@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export NO_AT_BRIDGE=1
-export jobs=`grep -c processor /proc/cpuinfo`
+export num_cpus=`grep -c processor /proc/cpuinfo`
 
 test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 function parse_git_branch() {
