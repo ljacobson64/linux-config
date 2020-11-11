@@ -111,6 +111,7 @@ python3-nose
 python3-numpy
 python3-numpydoc
 python3-pandas
+python3-pil.imagetk
 python3-pip
 python3-prettytable
 python3-psycopg2
