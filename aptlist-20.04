@@ -58,6 +58,7 @@ libindicator7
 liblapack-dev
 liblzma-dev
 libmatio-dev
+libmotif-dev
 libmysqlclient-dev
 libnetcdf-dev
 libopenmpi-dev
@@ -129,6 +130,7 @@ python-is-python3
 python-nose
 python-numpy
 python-setuptools
+qtbase5-dev
 r-base
 ruby-dev
 screen
