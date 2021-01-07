@@ -49,12 +49,14 @@ libc++-dev
 libeigen3-dev
 libexpat-dev
 libffi-dev
+libfftw3-dev
 libfreetype6-dev
 libgconf-2-4
 libgsl-dev
 libhdf5-dev
 libieee1284-3-dev
 libindicator7
+libjpeg-dev
 liblapack-dev
 liblzma-dev
 libmatio-dev
@@ -76,8 +78,11 @@ libtiff-dev
 libtool
 libvtk7-dev
 libx11-dev
+libxext-dev
+libxft-dev
 libxi-dev
 libxmu-dev
+libxpm-dev
 libz-dev
 llvm
 lm-sensors
@@ -130,6 +135,7 @@ python-is-python3
 python-nose
 python-numpy
 python-setuptools
+qt5-default
 qtbase5-dev
 r-base
 ruby-dev
