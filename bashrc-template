@@ -18,15 +18,18 @@ export PATH=~/bin:${PATH}
 export PATH=~/.local/bin:${PATH}
 
 # Add some software to the PATH
-export PATH=/opt/Trelis-16.5/bin:${PATH}
+export PATH=/opt/Trelis-17.1/bin:${PATH}
 export PATH=/opt/software_misc/ADVANTG/bin:${PATH}
-export PATH=/opt/software_misc/cmake/bin:${PATH}
+#export PATH=/opt/software_misc/cmake/bin:${PATH}
 export PATH=/opt/software_misc/jdk/bin:${PATH}
 export PATH=/opt/software_misc/MCNP/bin:${PATH}
-export PATH=/opt/software_misc/NJOY/bin:${PATH}
-export PATH=/opt/software_misc/SCALE/bin:${PATH}
-export PATH=/opt/software_misc/TALYS/bin:${PATH}
-export PATH=/opt/software_misc/visit/bin:${PATH}
+#export PATH=/opt/software_misc/NJOY/bin:${PATH}
+#export PATH=/opt/software_misc/SCALE/bin:${PATH}
+#export PATH=/opt/software_misc/TALYS/bin:${PATH}
+#export PATH=/opt/software_misc/visit/bin:${PATH}
+
+export PATH=/opt/software_intel/openmpi-4.1.0/bin:${PATH}
+export PATH=/opt/software_intel/MCNP/bin:${PATH}
 
 # Setup PYTHONPATH
 export PYTHONPATH=~/.local/lib/python3.8/site-packages
@@ -38,5 +41,8 @@ export dist_dir=~/dist
 
 # MCNP DATAPATH
 export DATAPATH=/opt/software_misc/MCNP/MCNP_DATA
+
+# WSL display
+#export DISPLAY=:0
 
 ulimit -s unlimited
