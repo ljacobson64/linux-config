@@ -86,6 +86,7 @@ mariadb-server
 meld
 members
 munge
+ncdu
 net-tools
 network-manager-openconnect-gnome
 nfs-common
