@@ -28,7 +28,7 @@ export PATH=/opt/software_misc/MCNP/bin:${PATH}
 #export PATH=/opt/software_misc/TALYS/bin:${PATH}
 #export PATH=/opt/software_misc/visit/bin:${PATH}
 
-export PATH=/opt/software_intel/openmpi-4.1.0/bin:${PATH}
+export PATH=/opt/software_intel/openmpi-4.1.1/bin:${PATH}
 export PATH=/opt/software_intel/MCNP/bin:${PATH}
 
 # Setup PYTHONPATH
