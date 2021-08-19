@@ -1,31 +1,19 @@
 #!/bin/bash
 
-export ACI1=ljjacobson@aci-service-1.chtc.wisc.edu
-export ACI2=ljjacobson@aci-service-2.chtc.wisc.edu
-export ACI=${ACI2}
-export ARIES=lucas@192.168.224.200
-export CONDOR=ljjacobson@submit-3.chtc.wisc.edu
+export ARIES=lucas@10.0.12.5
+export CHTC=ljjacobson@submit2.chtc.wisc.edu
 export HPC1=ljjacobson@hpclogin1.chtc.wisc.edu
 export HPC2=ljjacobson@hpclogin2.chtc.wisc.edu
 export HPC=${HPC2}
 export RAIKOU=lucas@192.168.240.73
 export TUX=lucasj@best-tux.cae.wisc.edu
-export TUXC1=lucasj@tux-c1.cae.wisc.edu
-export TUXC2=lucasj@tux-c2.cae.wisc.edu
-export TUXC3=lucasj@tux-c3.cae.wisc.edu
 export ZAPDOS=lucas@zapdos.ep.wisc.edu
 
-alias aci1="ssh -X ${ACI1}"
-alias aci2="ssh -X ${ACI2}"
-alias aci="ssh -X ${ACI}"
 alias aries="ssh -X ${ARIES}"
-alias condor="ssh -X ${CONDOR}"
+alias chtc="ssh -X ${CHTC}"
 alias hpc1="ssh -X ${HPC1}"
 alias hpc2="ssh -X ${HPC2}"
 alias hpc="ssh -X ${HPC}"
 alias raikou="ssh -X ${RAIKOU}"
 alias tux="ssh -X ${TUX}"
-alias tuxc1="ssh -X ${TUXC1}"
-alias tuxc2="ssh -X ${TUXC2}"
-alias tuxc3="ssh -X ${TUXC3}"
 alias zapdos="ssh -X ${ZAPDOS}"
