@@ -1,19 +1,19 @@
 #!/bin/bash
 
-export ARIES=lucas@10.0.12.5
-export CHTC=ljjacobson@submit2.chtc.wisc.edu
-export HPC1=ljjacobson@hpclogin1.chtc.wisc.edu
-export HPC2=ljjacobson@hpclogin2.chtc.wisc.edu
-export HPC=${HPC2}
-export RAIKOU=lucas@192.168.240.73
-export TUX=lucasj@best-tux.cae.wisc.edu
+export  ARIES=lucas@10.0.12.5
+export RAIKOU=lucas@10.0.20.32
 export ZAPDOS=lucas@zapdos.ep.wisc.edu
+export    TUX=lucasj@best-tux.cae.wisc.edu
+export   CHTC=ljjacobson@submit2.chtc.wisc.edu
+export   HPC1=ljjacobson@hpclogin1.chtc.wisc.edu
+export   HPC2=ljjacobson@hpclogin2.chtc.wisc.edu
+export    HPC=${HPC2}
 
-alias aries="ssh -X ${ARIES}"
-alias chtc="ssh -X ${CHTC}"
-alias hpc1="ssh -X ${HPC1}"
-alias hpc2="ssh -X ${HPC2}"
-alias hpc="ssh -X ${HPC}"
+alias  aries="ssh -X ${ARIES}"
 alias raikou="ssh -X ${RAIKOU}"
-alias tux="ssh -X ${TUX}"
 alias zapdos="ssh -X ${ZAPDOS}"
+alias    tux="ssh -X ${TUX}"
+alias   chtc="ssh -X ${CHTC}"
+alias   hpc1="ssh -X ${HPC1}"
+alias   hpc2="ssh -X ${HPC2}"
+alias    hpc="ssh -X ${HPC}"
