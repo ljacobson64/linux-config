@@ -131,6 +131,7 @@ python3-pillow
 python3-pip
 python3-ply
 python3-prettytable
+python3-progress
 python3-psycopg2
 python3-pylint-common
 python3-pyqt5
