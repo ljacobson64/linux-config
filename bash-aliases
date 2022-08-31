@@ -11,7 +11,8 @@ alias ppath='echo ${PYTHONPATH} | tr \: \\n'
 
 alias geany="geany &> /dev/null"
 
-alias findlarge="find -type f -printf \"%s %p\n\" | sort -n"
+alias findlarge="find -type f -printf '%12s   %p\n'     | sort -n | tail -40"
+alias  findlast="find -type f -printf '%T@   %t   %p\n' | sort -n | tail -40"
 alias sa="sacct --allusers --format=JobID,Partition,NNodes,ReqCPUS,Account,User,JobName,Priority,NodeList,Start,End,Elapsed,State"
 alias sq="squeue -l --format=\"%.6i %10P %.5D %.4C %12a %10u %48j %.8Q %.8y %.10M %.10l %10T %R\""
 alias update="sudo bash -c 'apt update && apt upgrade && apt dist-upgrade && apt autoremove && apt clean'"
