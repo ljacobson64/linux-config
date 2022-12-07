@@ -19,3 +19,6 @@ alias update="sudo bash -c 'apt update && apt upgrade && apt dist-upgrade && apt
 alias uz="unzip input.zip && find -type d -exec chmod 755 {} + && find -type f -exec chmod 644 {} + && chmod 755 *.sh"
 alias    vpn_connect="/opt/paloaltonetworks/globalprotect/globalprotect connect    --portal engr-split.vpn.wisc.edu"
 alias vpn_disconnect="/opt/paloaltonetworks/globalprotect/globalprotect disconnect --portal engr-split.vpn.wisc.edu"
+
+function     grepdump { for f in *.io; do grep dump $f          ; done }
+function greplastdump { for f in *.io; do grep dump $f | tail -1; done }
