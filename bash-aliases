@@ -16,7 +16,6 @@ alias  findlast="find -type f -printf '%T@   %t   %p\n' | sort -n | tail -100"
 alias sa="sacct --allusers --format=JobID,Partition,NNodes,ReqCPUS,Account,User,JobName,Priority,NodeList,Start,End,Elapsed,State"
 alias sq="squeue -l --format=\"%.6i %10P %.5D %.4C %12a %10u %48j %.8Q %.8y %.10M %.11l %10T %R\""
 alias update="sudo bash -c 'apt update && apt upgrade && apt dist-upgrade && apt autoremove && apt clean'"
-alias uz="unzip input.zip && find -type d -exec chmod 755 {} + && find -type f -exec chmod 644 {} + && chmod 755 *.sh"
 
 function     grepdump { for f in *.io; do grep dump $f          ; done }
 function greplastdump { for f in *.io; do grep dump $f | tail -1; done }
