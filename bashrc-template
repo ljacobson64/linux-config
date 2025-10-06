@@ -9,34 +9,20 @@ source ~/.bash-env
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
 # Make sure these paths are empty
-export LIBRARY_PATH=
+export    LIBRARY_PATH=
 export LD_LIBRARY_PATH=
-export PYTHONPATH=
+export      PYTHONPATH=
 
-# User PATH
-export PATH=~/bin:${PATH}
-export PATH=~/.local/bin:${PATH}
+# Use venv python
+export       PATH=/opt/software/python-3.12/bin:$PATH
+export PYTHONPATH=/opt/software/python-3.12/lib/python3.12/site-packages
 
 # Add some software to the PATH
-export PATH=/opt/Trelis-17.1/bin:${PATH}
-export PATH=/opt/software/MCNP620/bin:${PATH}
-export PATH=/opt/software/SCALE-6.2.3/bin:${PATH}
-export PATH=/opt/software/openmpi-4.1.4-intel/bin:${PATH}
-export PATH=/opt/software/MCNP-intel/bin:${PATH}
-
-# Setup PYTHONPATH
-export PYTHONPATH=~/.local/lib/python3.8/site-packages
-export PYTHONPATH=/opt/software/MCNPTOOLS-3.8.0/lib/python3.8/site-packages:${PYTHONPATH}
-export PYTHONPATH=~/git/pynix:${PYTHONPATH}
-
-# Location of software tarballs
-export dist_dir=~/dist
+export PATH=/opt/software/MCNP-6.3.0/mcnp-6.3.0-Linux/bin:${PATH}
+export PATH=/opt/software/ADVANTG-3.2.0/bin:${PATH}
+export PATH=/opt/software/SCALE-6.3.1/bin:${PATH}
 
 # MCNP DATAPATH
-export DATAPATH=/opt/software/MCNP620/MCNP_DATA
-
-# WSL display
-#export DISPLAY=$(awk '/nameserver / {print $2; exit}' /etc/resolv.conf 2>/dev/null):0.0
-#export LIBGL_ALWAYS_INDIRECT=1
+export DATAPATH=/opt/software/MCNP_DATA/MCNP_DATA
 
 ulimit -s unlimited

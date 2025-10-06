@@ -1,0 +1,13 @@
+cython
+h5py
+line_profiler
+matplotlib
+numpy
+pandas
+pillow
+pip
+progress
+scipy
+setuptools
+tables
+tk

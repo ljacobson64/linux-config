@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pip3 install --user --upgrade `cat piplist3`
+pip install --upgrade $(cat piplist)
