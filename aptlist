@@ -20,7 +20,6 @@ kcachegrind
 libblas-dev
 libboost-all-dev
 libeigen3-dev
-libhdf5-mpi-dev
 liblapack-dev
 libmotif-dev
 libnetcdf-dev
